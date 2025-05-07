@@ -1,0 +1,25 @@
+# Version control
+.git
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build and test output
+*.test
+*.out
+
+# OS and system files
+.DS_Store
+Thumbs.db
+
+# Env and config files
+.env
+
+# Docs and unused files
+README.md
+Dockerfile
+docker-compose.yml
