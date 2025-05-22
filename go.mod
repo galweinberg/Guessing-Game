@@ -1,4 +1,4 @@
-module ccs_interview
+module guessing-game
 
 go 1.20
 
