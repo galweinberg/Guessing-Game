@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ccs_interview/game"
+	"guessing-game/game"
 	"log"
 	"os"
 )
