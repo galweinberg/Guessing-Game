@@ -10,7 +10,6 @@ import (
 
 var gameDifficulty string
 
-//also implemented #3 and #4 bonus
 
 func StartServer(playerAmount int) {
 	listener, err := net.Listen("tcp", "0.0.0.0:8080")
