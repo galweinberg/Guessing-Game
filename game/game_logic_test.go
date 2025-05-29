@@ -11,8 +11,9 @@ import (
 )
 
 /* Example inputs:
-valid: "007123" - not sure if valid, needs 4 digits input?, "1181", " 1022  "
-invalid: "$", "-15", " "
+valid: "1181", " 1022  "
+invalid: "$", "-15", " ","007123"
+possible to test through deterministic version
 */
 
 // guess tests
