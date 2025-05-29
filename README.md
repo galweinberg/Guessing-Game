@@ -15,15 +15,14 @@ Go (Optional for Development):
 
 If the user wants to modify the game or run it locally without Docker, Go should be installed.
 
-Download from here.
 ----------------------------------------------------------------------------------
 ii. Clone the Repository:
 Clone the repository to your local machine:
 
-bash
-Copy
-git clone https://github.com/your-username/ccs-interview.git
-cd ccs-interview
+in bash:
+
+git clone https://github.com/your-username/Guessing-game.git
+cd Guessing-Game
 ------------------------------------------------------------------------------------------
 iii. Building the Docker Image:
 Navigate to the folder containing the Dockerfile:
