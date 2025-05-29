@@ -30,7 +30,7 @@ func GenerateSecretCode(difficulty string) int {
 	return GenerateSecretCodeWithRand(difficulty, rng)
 }
 
-// SecretCode is generated according to needed logic
+// SecretCode is generated according to a certain logic
 // Supports difficulty choice: easy, medium, hard
 func GenerateSecretCodeWithRand(difficulty string, rng *rand.Rand) int {
 	randomNum := rand.Intn(9000) + 1000 // generate a 4-digit number
@@ -45,7 +45,7 @@ func GenerateSecretCodeWithRand(difficulty string, rng *rand.Rand) int {
 		return randomNum
 
 	case "medium":
-		// If medium, use requiered logic
+		// If medium, use a certain logic
 		sum := sumDigits(randomNum)
 		if sum%2 == 0 {
 			randomNum = reverseInt(randomNum)
